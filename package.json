@@ -1,0 +1,15 @@
+{
+  "name": "GASolver",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./solver.js",
+    "test": "nodemon ./solver.js"
+  },
+  "dependencies": {
+    "mongodb": "~2.2.31",
+    "mongoose": "~4.12.1",
+    "nodemon": "~1.12.0",
+    "string-hash": "^1.1.0"
+  }
+}
